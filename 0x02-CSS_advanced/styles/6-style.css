@@ -3,6 +3,12 @@ html {
     font-size: 62.5%;
   }
 
+body {
+    color: #161616;
+}
+a {
+    color: #161616;
+}
 .visually-hidden {
     display: none;
 }
@@ -33,19 +39,18 @@ html {
     color: var(--color-primary);
   }
   
-  body {
-    color: #161616;
+body {
     color: var(--text-color);
     font-family: var(--font-family-base);
     font-size: var(--font-size-medium);
     font-weight: var(--font-weight-regular);
-  }
+}
   
-  a {
+a {
     color: var(--text-color);
-  }
-  
-  h1, h2, h3, h4, h5, h6 {
+}
+
+h1, h2, h3, h4, h5, h6 {
     font-family: var(--font-family-title);
     font-weight: var(--font-weight-bold);
-  }
+}

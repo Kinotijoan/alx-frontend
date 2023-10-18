@@ -3,6 +3,12 @@ html {
     font-size: 62.5%;
   }
 
+body {
+    color: #161616;
+}
+a {
+    color: #161616;
+}
 .visually-hidden {
     display: none;
 }
@@ -41,7 +47,7 @@ html {
     color: var(--color-primary);
   }
   
-  body {
+body {
     color: #161616;
     color: var(--text-color);
     font-family: var(--font-family-base);
@@ -49,14 +55,14 @@ html {
     font-weight: var(--font-weight-regular);
     line-height: var(--line-height-base);
     min-height: calc(1em * var(--line-height-base));
-  }
+}
   
-  a {
+a {
     text-decoration: none;
     color: inherit;
-  }
+}
   
-  h1, h2, h3, h4, h5, h6 {
+h1, h2, h3, h4, h5, h6 {
     font-family: var(--font-family-title);
     font-weight: var(--font-weight-bold);
-  } 
+} 
